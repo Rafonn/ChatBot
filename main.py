@@ -2,10 +2,10 @@ import traceback
 import time
 from multiprocessing import Process, set_start_method
 
-from agents.agents import IntelligentAssistant
-from db.receive_user_message import LastMessageFetcher
-from db.bot_logs_saver import Bot_Logs
-from tools.active_users import SqlServerUserFetcher
+from src.agents.agents import IntelligentAssistant
+from src.db.receive_user_message import LastMessageFetcher
+from src.db.bot_logs_saver import Bot_Logs
+from src.tools.active_users import SqlServerUserFetcher
 
 from langchain_core.messages import AIMessage, HumanMessage
 

@@ -1,4 +1,4 @@
-from dude.controller import DudeConnectionBase
+from src.dude.controller import DudeConnectionBase
 
 """ 
     Filtrar por:

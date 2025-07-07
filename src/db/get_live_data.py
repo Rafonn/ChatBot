@@ -1,7 +1,7 @@
 import os
 import json
 import pyodbc
-from db.db_connector import Db_Connection
+from src.db.db_connector import Db_Connection
 from dotenv import load_dotenv
 
 

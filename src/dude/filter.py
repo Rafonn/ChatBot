@@ -1,4 +1,4 @@
-from dude.information_order_builder import InformationOrderBuilder
+from src.dude.information_order_builder import InformationOrderBuilder
 
 
 class Filter:

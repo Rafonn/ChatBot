@@ -1,9 +1,9 @@
-from tools.machines.machines import machines_names
-from tools.machines.formated_machines import formated_machines
-from dude.filter import Filter
-from cache.cache import ManualCachedEmbedder
-from db.get_live_data import LiveData
-from tools.fuzzy_matcher import FuzzyMatcher
+from src.tools.machines.machines import machines_names
+from src.tools.machines.formated_machines import formated_machines
+from src.dude.filter import Filter
+from src.cache.cache import ManualCachedEmbedder
+from src.db.get_live_data import LiveData
+from src.tools.fuzzy_matcher import FuzzyMatcher
 
 from dotenv import load_dotenv
 from typing import Optional
