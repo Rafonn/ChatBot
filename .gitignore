@@ -1,0 +1,5 @@
+__pycache__
+.env
+rag_db_index
+machines
+manual_estruturado.json
