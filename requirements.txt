@@ -1,0 +1,13 @@
+openai
+dotenv
+langchain
+langchain_core
+langchain_openai
+langchain_community
+langchain_redis
+pyodbc
+urllib
+fitz
+thefuzz
+redis
+pika
