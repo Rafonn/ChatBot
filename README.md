@@ -36,7 +36,7 @@ src/
 Python is the backbone of this project due to its rich ecosystem for data processing, machine learning, and rapid prototyping. Its readability and extensive library support make it ideal for integrating multiple complex systems.
 
 ### RabbitMQ
-This Python service acts as the core processing brain for the chat system, operating on an event-driven model with RabbitMQ. It functions by consuming user messages from a dedicated user_log_exchange, processing them through the IntelligentAssistant AI logic, and then producing the bot's response back to a bot_log_exchange. This architecture allows the main API to receive the response in real-time and forward it to the correct user via WebSocket. To run this service, ensure the pika library is installed.
+This Python service acts as the core processing brain for the chat system, operating in an event-driven model with RabbitMQ. It functions by consuming user messages from a dedicated user_log_exchange, processing them through the IntelligentAssistant AI logic, and then producing the bot's response back to a bot_log_exchange. This architecture allows the main API to receive the response in real-time and forward it to the correct user via WebSocket. To run this service, ensure the pika library is installed.
 
 ### LangChain & OpenAI
 The assistant uses [LangChain](https://github.com/langchain-ai/langchain) to orchestrate language model interactions and tool usage. LangChain provides a modular way to combine LLMs with external tools, enabling the assistant to reason, retrieve, and act. OpenAI's GPT models are used for their advanced natural language understanding and generation, ensuring high-quality conversational experiences.
